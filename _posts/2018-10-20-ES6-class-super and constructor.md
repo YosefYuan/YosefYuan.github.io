@@ -18,7 +18,9 @@ tags:
 
 [转载](https://juejin.im/post/5b4c0b26f265da0f6c7a82a1)
 
-## 首先，ES6 的 class 属于一种“语法糖”，所以只是写法更加优雅，更加像面对对象的编程，其思想和 ES5 是一致的。
+## class -> “语法糖”
+
+首先，ES6 的 class 属于一种“语法糖”，所以只是写法更加优雅，更加像面对对象的编程，其思想和 ES5 是一致的。
 
 ```js
 function Point(x, y) {
@@ -31,7 +33,7 @@ Point.prototype.toString = function () {
 }
 ```
 
-**等同于**
+等同于
 
 ```js
 class Point {
@@ -48,7 +50,9 @@ class Point {
 
 其中 constructor 方法是类的构造函数，是一个默认方法，通过 new 命令创建对象实例时，自动调用该方法。一个类必须有 constructor 方法，**如果没有显式定义，一个默认的 consructor 方法会被默认添加**。所以即使你没有添加构造函数，也是会有一个默认的构造函数的。一般 constructor 方法返回实例对象 this ，但是也可以指定  constructor 方法返回一个全新的对象，让返回的实例对象不是该类的实例。
 
-## 下面好好分析一下 **super 关键字**的作用：
+## super 关键字
+
+下面好好分析一下 **super 关键字**的作用：
 
 super 这个关键字，既可以当做函数使用，也可以当做对象使用。这两种情况下，它的用法完全不用。
 
