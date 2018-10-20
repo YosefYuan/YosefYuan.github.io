@@ -14,7 +14,9 @@ tags:
     - Class
     - ES6
 ---
-# 理解 es6 class 中 constructor 方法 和 super 的作用
+# constructor 和 super
+
+理解 es6 class 中 constructor 方法 和 super 的作用
 
 [转载](https://juejin.im/post/5b4c0b26f265da0f6c7a82a1)
 
