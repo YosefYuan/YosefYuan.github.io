@@ -152,6 +152,9 @@ super 这个关键字，既可以当做函数使用，也可以当做对象使�
         constructor() {
             this.x = 1;
         }
+        x(){
+            console.log("A's x")
+        }
     }
 
     class B extends A {
@@ -159,7 +162,7 @@ super 这个关键字，既可以当做函数使用，也可以当做对象使�
             super();
             this.x = 2;
             super.x = 3;
-            console.log(super.x); // undefined
+            console.log(super.x); // [Function: x]
             console.log(this.x); // 3
         }
     }
@@ -167,7 +170,7 @@ super 这个关键字，既可以当做函数使用，也可以当做对象使�
     let b = new B();
     ```
 
-    上面代码中，super.x 赋值为 3，这时等同于对 this.x 赋值为 3。而当读取 super.x 的时候，调用的是 A.prototype.x，但并没有 x 方法，所以返回 undefined。
+    上面代码中，super.x 赋值为 3，这时等同于对 this.x 赋值为 3。而当读取 super.x 的时候，调用的是 A.prototype.x,返回 A class 的方法 [Function: x]。
 
     **PS:** 注意，使用 super 的时候，必须显式指定是作为函数，还是作为对象使用，否则会报错。
 
