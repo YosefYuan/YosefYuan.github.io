@@ -20,11 +20,11 @@
 
 - "I handle stress by breaking down tasks into smaller, manageable parts and prioritizing them. I use tools like Todo List, Pomodoro and Google Calender to split the big task into small one and ensure I'm meeting deadlines. Additionally, I communicate regularly with my team to make sure we're all aligned and can support each other if needed. This approach has helped me stay focused and productive under pressure."
 
-**What are your top three soft skills?**
+**What are your top three soft skills?** TODO
 
 - "My top three soft skills are teamwork, communication, and problem-solving. In my last project, I worked closely with a team of developers and designers to deliver a complex web application. My ability to clearly communicate ideas and listen to feedback ensured smooth collaboration. When we encountered technical challenges, my problem-solving skills helped us find effective solutions quickly."
 
-**What are your thoughts on teamwork?**
+**What are your thoughts on teamwork?** TODO
 
 - "I believe teamwork is essential for the success of any project. Collaboration brings diverse perspectives and skills, which leads to more innovative solutions. In my previous roles, I’ve always made an effort to foster a collaborative environment by encouraging open communication, respecting different viewpoints, and being willing to help others."
 
@@ -36,7 +36,7 @@
 
 **What challenges have you faced in past projects, and how did you solve them?**
 
-- In one project, the boss only provided his idea with no ready-made solution but a clear deadline. Initially, I didn't know how to start. After preliminary technical research, we decided to implement the simplest solution by the deadline. Later, we found a better approach and optimized it.
+- In one project, the boss only provided his idea with no ready-made solution but a clear deadline. Initially, I didn't know how to start. After preliminary technical research, I decided to implement the simplest solution by the deadline. Later, I found a better approach and optimized it.
 
 **Why do you want to join our company?**
 
