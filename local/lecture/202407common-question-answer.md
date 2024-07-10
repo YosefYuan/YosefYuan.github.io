@@ -62,6 +62,15 @@ When preparing for a front-end developer interview, it's important to be ready f
 
 - I really like the company's philosophy: using AI to directly support enterprise-level services, achieving system integration and data flow enhancement, thereby improving efficiency. I believe this will have a significant market in the future.
 
+**Why do you want to work for this company?**
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+**Why do you want to leave your currernt job?**
+![alt text](image-8.png)
+
 **What are your career plans for the future?**
 
 - In the future, I hope to continue deepening my expertise in the front-end field, focusing on front-end engineering and performance optimization. In the long run, I aspire to become a front-end architect and technical expert, positively influencing my team members and helping my team thrive through my passion and dedication.
