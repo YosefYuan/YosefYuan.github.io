@@ -1,4 +1,4 @@
-# When preparing for a front-end developer interview, it's important to be ready for non-technical questions as well. These questions help showcase your soft skills, professional attitude, and adaptability. Here are some common non-technical questions and tips on how to prepare for them.
+When preparing for a front-end developer interview, it's important to be ready for non-technical questions as well. These questions help showcase your soft skills, professional attitude, and adaptability. Here are some common non-technical questions and tips on how to prepare for them.
 
 ## Q & A
 
