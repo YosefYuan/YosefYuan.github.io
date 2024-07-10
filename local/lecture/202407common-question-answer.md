@@ -34,6 +34,16 @@ When preparing for a front-end developer interview, it's important to be ready f
 
 ![alt text](image-2.png)
 
+**What is your biggest weakness?**
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+**What's your ideal work environment?**
+
+![alt text](image-5.png)
+
 **What are your thoughts on teamwork?** TODO
 
 - "I believe teamwork is essential for the success of any project. Collaboration brings diverse perspectives and skills, which leads to more innovative solutions. In my previous roles, I’ve always made an effort to foster a collaborative environment by encouraging open communication, respecting different viewpoints, and being willing to help others."
