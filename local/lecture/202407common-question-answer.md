@@ -30,6 +30,10 @@ When preparing for a front-end developer interview, it's important to be ready f
 
 - "My top three soft skills are teamwork, communication, and problem-solving. In my last project, I worked closely with a team of developers and designers to deliver a complex web application. My ability to clearly communicate ideas and listen to feedback ensured smooth collaboration. When we encountered technical challenges, my problem-solving skills helped us find effective solutions quickly."
 
+**What are your strengths?**
+
+![alt text](image-2.png)
+
 **What are your thoughts on teamwork?** TODO
 
 - "I believe teamwork is essential for the success of any project. Collaboration brings diverse perspectives and skills, which leads to more innovative solutions. In my previous roles, I’ve always made an effort to foster a collaborative environment by encouraging open communication, respecting different viewpoints, and being willing to help others."
