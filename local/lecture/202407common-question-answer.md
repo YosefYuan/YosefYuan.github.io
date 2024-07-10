@@ -74,3 +74,24 @@ When preparing for a front-end developer interview, it's important to be ready f
 **What are your career plans for the future?**
 
 - In the future, I hope to continue deepening my expertise in the front-end field, focusing on front-end engineering and performance optimization. In the long run, I aspire to become a front-end architect and technical expert, positively influencing my team members and helping my team thrive through my passion and dedication.
+
+**Where do you see yourself in five years?**
+![alt text](image-9.png)
+![alt text](image-10.png)
+
+**How do you handle conflict with coworkers?**
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
+
+**What motivates you?**
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+**What are your salary expectations?**
+![alt text](image-15.png)
+
+![alt text](image-16.png)
