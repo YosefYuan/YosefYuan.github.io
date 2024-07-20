@@ -2,11 +2,17 @@ When preparing for a front-end developer interview, it's important to be ready f
 
 ## Q & A
 
+### Part 1
+
 **Tell me about yourself.**
 
 - I am Yosef Yuan, a dedicated front-end engineer with over 7 years of experience, skilled in JavaScript, React, Vue, TypeScript, Node.js, etc. I am proficient in performance optimization, consistently enhancing application speed and user experience. Additionally, I am a curious problem solver with a strong ability to troubleshoot issues efficiently, particularly through exception monitoring systems. In my previous role, I led the front-end development for a major H5 application in the growth department, significantly improving user engagement from 500,000 to over a million users. I also led several core technical projects, including performance monitoring, offline pre-rendering, and tool upgrades for millions of users, resulting in a significant performance boost and a 30% increase in AD effectiveness.
 
+Answer 1
 ![alt text](image.png)
+
+Answer 2
+![alt text](image-22.png)
 
 **Why did you choose front-end development?**
 
@@ -95,3 +101,15 @@ When preparing for a front-end developer interview, it's important to be ready f
 ![alt text](image-15.png)
 
 ![alt text](image-16.png)
+
+### Part 2
+
+![alt text](image-17.png)
+
+![alt text](image-18.png)
+
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)
