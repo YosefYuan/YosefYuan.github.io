@@ -10,41 +10,34 @@ class Heap {
     }
 
     heapifyDown(parent) {
-        let leftInd = this.leftChild(parent);
-        let rightInd = this.rightChild(parent);
-        let maxHeap = this.root;
-        let endindex = maxHeap.length - 1;
-        while(leftInd <= endindex) {
-            let indexToShift;
-            if(rightInd <= endindex && maxHeap[rightInd] > maxHeap[leftInd]) {
-                indexToShift = rightInd;
+        let leftChild = this.leftChild(parent);
+        let rightChild = this.rightChild(parent);
+        const maxHeap = this.root;
+        const lastInd = maxHeap.length - 1;
+        while(leftChild <= lastInd) {
+            let shiftInd;
+            if(rightChild <= lastInd && maxHeap[leftChild] < maxHeap[rightChild]) {
+                shiftInd = rightChild;
             } else {
-                indexToShift = leftInd;
+                shiftInd = leftChild;
             }
-            console.log('indexToShift', indexToShift);
-            console.log('parent', parent);
-            if(maxHeap[parent] < maxHeap[indexToShift]) {
-                [maxHeap[parent], maxHeap[indexToShift]] = [
-                    maxHeap[indexToShift],
-                    maxHeap[parent]
-                ];
-                parent = indexToShift;
-                leftInd = this.leftChild(parent);
-                rightInd = this.rightChild(parent);
+            if(maxHeap[parent] < maxHeap[shiftInd]) {
+                [maxHeap[parent], maxHeap[shiftInd]] = [maxHeap[shiftInd], maxHeap[parent]];
+                parent = shiftInd;
+                leftChild = this.leftChild(parent);
+                rightChild = this.rightChild(parent);
             } else {
                 return;
             }
-            console.log('leftInd', leftInd);
-            console.log('rightInd', rightInd);
-            console.log('endindex', endindex);
         }
+
     }
 
     buildheap(arr) {
         this.root = arr;
-        const lastparent = this.parent(this.root.length - 1);
-        console.log('lastparent', lastparent);
-        for(let i = lastparent; i >= 0; i--) {
+        const lastInd = arr.length - 1;
+        const lastParent = this.parent(lastInd);
+        for(let i = lastParent; i >= 0; i --) {
             this.heapifyDown(i);
         }
     }
@@ -62,9 +55,10 @@ class Heap {
     }
 
     remove() {
-        const heap = this.root;
-        [heap[0], heap[heap.length - 1]] = [heap[heap.length - 1], heap[0]];
-        heap.pop();
+        const lastInd = this.root.length - 1;
+        const maxHeap = this.root;
+        [maxHeap[0], maxHeap[lastInd]] = [maxHeap[lastInd], maxHeap[0]];
+        this.root.pop();
         this.heapifyDown(0);
     }
 
@@ -74,12 +68,12 @@ class Heap {
 }
 
 var findKthLargest = function(nums, k) {
-    let maxHeap = new Heap();
-    maxHeap.buildheap(nums);
+    const heap = new Heap();
+    heap.buildheap(nums);
     for(let i = 0; i < k - 1; i ++) {
-        maxHeap.remove();
+        heap.remove();
     }
-    return maxHeap.max();
+    return heap.max();
 };
 
 const arrs = [3,5,2,5,6,3];
